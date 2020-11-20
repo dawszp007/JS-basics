@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kalkulator {
+    margin: 100px auto;
+    width: 375px;
+    /* height: 500px; */
+}
+
+.pamiec {
+    height: 30px;
+    border: 1px solid black;
+    text-align: right;
+    font-family: Arial, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.aktualne {
+    height: 50px;
+    border: 1px solid black;
+    line-height: 50px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, 'Times New Roman', Times, serif;
+}
+
+button {
+    display: block;
+    float: left;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.liczba {
+    background-color: rgb(68, 61, 61);
+}
+
+.liczba:hover {
+    background-color: rgb(187, 174, 174);
+}
