@@ -1,0 +1,11 @@
+stock_id;car_manufactuer;car_type;car_price_net;vat_rate;merchant_id;merchant_email
+HU25471;Ford;Kuga;3794;0,21;664896;test1@auto1.com
+KC90968;Opel;Mokka;4346;0,19;63848;test2@auto1.com
+KN25164;Renault;Megane;1185;0,19;456686;test3@auto1.com
+LL65433;Toyota;Yaris;3560;0,21;664896;test1@auto1.com
+MK02154;Volkswagen;Passat;8848;0,2;125587;test4@auto1.com
+MP89776;Ford;Mondeo;6041;0,19;63848;test2@auto1.com
+MX74295;Ford;Kuga;2498;0,2;125587;test4@auto1.com
+NV92230;Volkswagen;Polo;8519;0,2;125587;test4@auto1.com
+PK15358;Peugeot;307;6454;0,21;125587;test4@auto1.com
+PL87695;Nissan;NV200 Evalia;2305;0,19;664896;test1@auto1.com
