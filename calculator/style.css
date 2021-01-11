@@ -1,50 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-* {
+*,
+*::after,
+*::before {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(107, 97, 97);
+}
+
 .kalkulator {
     margin: 100px auto;
-    width: 375px;
-    /* height: 500px; */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: minmax(120px, auto)repeat(6, 80px);
+
+}
+
+.wynik {
+    grid-column: 1 / -1;
+    background-color: rgb(20, 3, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .pamiec {
-    height: 30px;
-    border: 1px solid black;
-    text-align: right;
-    font-family: Arial, 'Times New Roman', Times, serif;
-    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .8);
 }
 
 .aktualne {
-    height: 50px;
-    border: 1px solid black;
-    line-height: 50px;
-    text-align: right;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Arial, 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
 button {
-    display: block;
-    float: left;
-    width: 75px;
-    height: 75px;
     cursor: pointer;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 18px;
-    font-weight: bold;
+    border: 1px solid rgb(20, 3, 3);
+    background: #242423;
+    outline: none;
 }
 
 .liczba {
-    background-color: rgb(68, 61, 61);
+    background: #585856;
 }
 
-.liczba:hover {
-    background-color: rgb(187, 174, 174);
+
+button:hover,
+button:focus {
+    background-color: rgba(201, 179, 179, 0.75);
+}
+
+.span-col {
+    grid-column: span 2;
+}
+
+.span-row {
+    grid-row: span 2;
 }
