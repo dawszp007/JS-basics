@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(rgb(248, 78, 192), rgb(111, 88, 241));
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.content {
+    display: flex;
+    margin: 100px auto;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.content div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.bird {
+    background-image: url('/images/bird.png');
+    background-size: cover;
+}
+
+.cd {
+    background-image: url('/images/cd.png');
+    background-size: cover;
+}
+
+.tree {
+    background-image: url('/images/tree.png');
+    background-size: cover;
+}
+
+.car {
+    background-image: url('/images/car.png');
+    background-size: cover;
+}
